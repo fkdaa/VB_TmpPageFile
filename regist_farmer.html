@@ -13,33 +13,48 @@
 
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mt-3 mb-3">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">VegiBank</a>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">メニュー🔻</a>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark mt-3 mb-3">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="top.html">VegiBank</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">メニュー🔻</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"></a>
+                        </li>
+                       
+                  <li class="nav-item">
+                    <a class="btn btn-info" href="login.html" role="button">ログイン</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"></a>
+                <li class="form-inline">
+                    <a class="nav-link" href="#" ></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ログアウト</a>
-                </li>
-               
-            </ul>
-        </div>
-
-        <form class="form-inline">
-                <input class="form-control mr-sm-1" type="search" placeholder="生産者・野菜を検索" >
-                <button class="btn btn-primary" type="submit">検索</button>
-            </form>
-            <span class="navbar-text">　Admin としてログイン中　</span>
-    </nav>    
-    <div class="container">
+                <li class="form-inline">
+                    <a class="nav-link" href="#" ></a>                  </li>
+                    
+                    <li class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                        <div class="btn-group" role="group">
+                          <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            新規会員登録
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <a class="dropdown-item" href="regist_customer.html">消費者用登録画面</a>
+                            <a class="dropdown-item" href="regist_farmer.html">生産者用登録画面</a>
+                          </div>
+                        </div>
+                    </li>
+                </div>
+            
+                <form class="form-inline">
+                        <input class="form-control mr-sm-1" type="search" placeholder="生産者・野菜を検索" >
+                        <button class="btn btn-primary" type="submit">検索</button>
+                    </form>
+            </nav>    
+                <div class="container">
         <h2>生産者用会員登録ページ</h2>
         <form>
             <div class="form-group">
@@ -82,13 +97,13 @@
                 <br>
             </div>
             
-              <button type="submit" class="btn btn-primary">送信</button>
+              <a href="check.html"  class="btn btn-primary">送信</a><br>
         </form>
-        
+        <br>
     </div>
 
 
-        <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
         <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
     </body>
 </html>
