@@ -2,9 +2,10 @@
     position: relative;
     height: 100vh;
     min-height: 300px;
-    background: url(../yasai.png) no-repeat center center;
     background-size: cover;
+    background: url("../yasai.png")center no-repeat;
 }
+
 .contact {
     position: absolute;
     width: 1880px;
