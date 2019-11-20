@@ -18,50 +18,36 @@
                 </button>
                 <a class="navbar-brand" href="top.html">VegiBank</a>
                 <div class="collapse navbar-collapse">
-                        <ul class="navbar-nav">
-                                <li class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                                    <div class="btn-group" role="group">
-                                      <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        メニュー
-                                      </button>
-                                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                        <a class="dropdown-item" href="check.html">リクエスト確認画面</a>
-                                        <a class="dropdown-item" href="request.html">リクエスト画面</a>
-                                        <a class="dropdown-item" href="item_list.html">商品リスト画面</a>
-                                        
-                                      </div>
-                                    </div>
-                                    
-                                </li>                  <li class="nav-item">
+                    <ul class="navbar-nav">
+                        <li class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                            <div class="btn-group" role="group">
+                              <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                メニュー
+                              </button>
+                              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <a class="dropdown-item" href="check.html">リクエスト確認画面</a>
+                                <a class="dropdown-item" href="request.html">リクエスト画面</a>
+                                <a class="dropdown-item" href="item_list.html">商品リスト画面</a>
+                                
+                              </div>
+                            </div>
+                            
+                        </li>             <li class="nav-item">
                             <a class="nav-link" href="#"></a>
                         </li>
-                       
-                  <li class="nav-item">
-                    <a class="btn btn-info" href="login.html" role="button">ログイン</a>
-                </li>
-                <li class="form-inline">
-                    <a class="nav-link" href="#" ></a>
-                </li>
-                    
-                    <li class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                        <div class="btn-group" role="group">
-                          <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            新規会員登録
-                          </button>
-                          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                            <a class="dropdown-item" href="regist_customer.html">消費者用登録画面</a>
-                            <a class="dropdown-item" href="regist_farmer.html">生産者用登録画面</a>
-                          </div>
-                        </div>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="top.html">ログアウト</a>
+                        </li>
+                    </ul>
                 </div>
-            
+    
                 <form class="form-inline">
-                        <input class="form-control mr-sm-1" type="search" placeholder="生産者・野菜を検索" >
-                        <button class="btn btn-primary" type="submit">検索</button>
-                    </form>
-            </nav>    
-                <br>
+                    <input class="form-control mr-sm-1" type="search" placeholder="生産者・野菜を検索" >
+                    <button class="btn btn-primary" type="submit">検索</button>
+                </form>
+            <span class="navbar-text">　Admin としてログイン中　</span>
+        </nav>
+            <br>
    <div class="container">
         
 
@@ -87,7 +73,7 @@
     <tbody>
         <tr>
 	    <th><img src="item_photos/carrot.jpeg" width="100" height="100"></th>
-	    <td><a href="regist_customer.html">人参 3kg</a></td>
+	    <td><a href="item_details.html">人参 3kg</a></td>
             <td>ニンジン</td>
             <td>￥1000</td>
 	    <td>TNCT太郎</td>
@@ -95,7 +81,7 @@
         </tr>
         <tr>
 	    <th><img src="item_photos/cabbage.jpeg" width="100" height="100"></th>
-	    <td><a href="regist_customer.html">キャベツ 5kg</a></td>
+	    <td><a href="#">キャベツ 5kg</a></td>
             <td>キャベツ</td>
             <td>￥1200</td>
 	    <td>TNCT次郎</td>
@@ -103,7 +89,7 @@
         </tr>
         <tr>
 	    <th><img src="item_photos/jap_raddish.jpeg" width="100" height="100"></th>
-	    <td><a href="regist_customer.html">大根 4kg</a></td>
+	    <td><a href="#">大根 4kg</a></td>
             <td>ダイコン</td>
             <td>￥1400</td>
 	    <td>TNCT三郎</td>
@@ -111,7 +97,7 @@
         </tr>
         <tr>
 	    <th><img src="item_photos/burdock.jpeg" width="100" height="100"></th>
-	    <td><a href="regist_customer.html">ごぼう 2kg</a></td>
+	    <td><a href="#">ごぼう 2kg</a></td>
             <td>ゴボウ</td>
             <td>￥800</td>
 	    <td>TNCT四郎</td>
@@ -119,7 +105,7 @@
         </tr>
         <tr>
 	    <th><img src="item_photos/sprouts.jpeg" width="100" height="100"></th>
-	    <td><a href="regist_customer.html">もやし 3kg</a></td>
+	    <td><a href="#">もやし 3kg</a></td>
             <td>モヤシ</td>
             <td>￥300</td>
 	    <td>狭間春子</td>
@@ -127,7 +113,7 @@
         </tr>
         <tr>
 	    <th><img src="item_photos/broccoli.jpeg" width="100" height="100"></th>
-	    <td><a href="regist_customer.html">ブロッコリー 1kg</a></td>
+	    <td><a href="#">ブロッコリー 1kg</a></td>
             <td>ブロッコリー</td>
             <td>￥800</td>
 	    <td>狭間夏子</td>
@@ -135,7 +121,7 @@
         </tr>
         <tr>
 	    <th><img src="item_photos/brussels.jpeg" width="100" height="100"></th>
-	    <td><a href="regist_customer.html">芽キャベツ 1kg</a></td>
+	    <td><a href="#">芽キャベツ 1kg</a></td>
             <td>メキャベツ</td>
             <td>￥1300</td>
 	    <td>狭間秋子</td>
@@ -143,7 +129,7 @@
         </tr>
         <tr>
 	    <th><img src="item_photos/spinach.jpeg" width="100" height="100"></th>
-	    <td><a href="regist_customer.html">ほうれんそう 2kg</a></td>
+	    <td><a href="#">ほうれんそう 2kg</a></td>
             <td>ホウレンソウ</td>
             <td>￥1000</td>
 	    <td>狭間冬子</td>
