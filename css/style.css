@@ -12,6 +12,11 @@
     font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, 'Open Sans', sans-serif;
   }
 
+  .title{
+    border-bottom: 2px dotted #203744;
+    border-left: 10px solid #203744;
+    padding: 7px;
+  }
 
 
 .jumbotron-extend {
