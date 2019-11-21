@@ -1,0 +1,99 @@
+    <!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>商品出品画面</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mt-3 mb-3">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="top.html">VegiBank</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                        <div class="btn-group" role="group">
+                          <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            メニュー
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <a class="dropdown-item" href="check.html">リクエスト確認画面</a>
+                            <a class="dropdown-item" href="request.html">リクエスト画面</a>
+                            <a class="dropdown-item" href="item_list.html">商品リスト画面</a>
+                            
+                          </div>
+                        </div>
+                        
+                    </li>             <li class="nav-item">
+                        <a class="nav-link" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="top.html">ログアウト</a>
+                    </li>
+                </ul>
+            </div>
+
+            <form class="form-inline">
+                <input class="form-control mr-sm-1" type="search" placeholder="生産者・野菜を検索" >
+                <button class="btn btn-primary" type="submit">検索</button>
+            </form>
+        <span class="navbar-text">　Admin としてログイン中　</span>
+    </nav>
+    <br><br><br>
+    <div class="container">
+            <h1>商品出品画面</h1>
+        <div class="row">
+        <div class="col-md-5">
+          <img class="radius" src="item_photos/carrot.jpeg" width="400" height="400"><br>
+          <button type="button" class="btn btn-success btn-sm">写真を選ぶ</button>
+        </div>
+
+        <div class="col-md-7">
+          <div class="card">
+            <div class="card-body">
+              <dl class="row">
+                  <div class="col-sm-7">
+                    <form>
+                  <div class="form-group">
+                      <dt >
+                                <label class="control-label">名称</label>             </dt>             
+                        <input class="form-control" type="text" placeholder="人参">
+                    </div>
+
+                    <div class="form-group">
+                            <dt >
+                                      <label class="control-label">量</label>             </dt>             
+                              <input class="form-control" type="text" placeholder="3kg">
+                          </div>
+                          
+                          <div class="form-group">
+                                <dt >
+                                          <label class="control-label">値段</label>             </dt>             
+                                  <input class="form-control" type="text" placeholder="￥1000">
+                              </div>
+                
+                          <div class="form-group">
+                                <dt>
+                                          <label class="control-label">いつまで出すか</label>             </dt>             
+                                  <input class="form-control" type="text" placeholder="11/31">
+                              </div>                
+                    </form>
+                    </div>
+                    
+                    </dl>
+                    <button type="button" class="btn btn-success btn-sm">出品する</button>
+            </div></div></div></div></div></div></div>
+<br>
+
+                
+
+  <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+  <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
